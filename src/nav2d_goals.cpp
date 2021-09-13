@@ -18,7 +18,7 @@
     move_base_msgs::MoveBaseGoal goal;
   
     //we'll send a goal to the robot to move 1 meter forward
-    goal.target_pose.header.frame_id = "velodyne";
+    goal.target_pose.header.frame_id = "base_link";
     goal.target_pose.header.stamp = ros::Time::now();
   
 
