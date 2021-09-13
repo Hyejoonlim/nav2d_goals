@@ -1,2 +1,2 @@
 # nav2d_goals
-Send a Navigation Goal to ROS in XY
+Send 3 Navigation Goals to ROS in Position (XY) and Orientation (W)
